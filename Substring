@@ -1,0 +1,1 @@
+SELECT distinct SUBSTRING(new_pathname, 1, 3) AS path FROM (SELECT SUBSTRING(pathname, 46) AS new_pathname FROM `docfolders`) as A;
